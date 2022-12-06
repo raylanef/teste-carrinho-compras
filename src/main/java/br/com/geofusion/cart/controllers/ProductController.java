@@ -37,7 +37,7 @@ public class ProductController {
             products.remove(index);
             return ResponseEntity.status(200).build();
         }
-        return null;
+        return ResponseEntity.status(404).build();
     }
 
     @PutMapping("/{index}")
@@ -47,6 +47,6 @@ public class ProductController {
             products.set(index, product);
             return ResponseEntity.status(200).body(product);
         }
-        return null;
+        return ResponseEntity.status(404).build();
     }
 }

@@ -1,12 +1,13 @@
-br/com/geofusion/cart/controllers/ShoppingCartController.class
 br/com/geofusion/cart/controllers/exception/NotFoundException.class
-br/com/geofusion/cart/controllers/ProductController.class
 br/com/geofusion/cart/Teste.class
+br/com/geofusion/cart/Item.class
+br/com/geofusion/cart/Cart.class
+br/com/geofusion/cart/controllers/ShoppingCartController.class
+br/com/geofusion/cart/controllers/ProductController.class
+br/com/geofusion/cart/services/ShoppingCartService.class
 br/com/geofusion/cart/Product.class
 br/com/geofusion/cart/controllers/exception/ExceptionHandlerDefault.class
-br/com/geofusion/cart/Item.class
 br/com/geofusion/cart/ShoppingCart.class
 br/com/geofusion/cart/services/ShoppingCartFactory.class
 br/com/geofusion/cart/controllers/ShoppingCartFactoryController.class
 br/com/geofusion/cart/controllers/exception/ExceptionResponse.class
-br/com/geofusion/cart/Cart.class
