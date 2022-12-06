@@ -2,11 +2,12 @@ package br.com.geofusion.cart.services;
 
 import br.com.geofusion.cart.Item;
 import br.com.geofusion.cart.Product;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+
+import org.junit.jupiter.api.Test;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+
 
 import java.math.BigDecimal;
 import java.util.Collection;
@@ -14,11 +15,12 @@ import java.util.Collection;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-@RunWith(SpringRunner.class)
-@SpringBootTest(classes = ShoppingCartService.class)
+
+
+@SpringBootTest
 public class ShoppingCartServiceTest{
     @Autowired
-    ShoppingCartService service;
+    private ShoppingCartService service;
 
 
     @Test

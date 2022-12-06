@@ -1,18 +1,22 @@
 package br.com.geofusion.cart;
 
-import org.junit.Before;
-import org.springframework.boot.test.web.server.LocalServerPort;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.springframework.boot.test.context.SpringBootTest;
+
 
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.port;
 
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 public class BaseApi {
-    @LocalServerPort
-    private int porta;
 
-    @Before
-    public void setup() {
-        baseURI = "http://localhost";
-        port = porta;
+    private static final int PORT = 8080;
+    private static final String HOST = "http://localhost";
+
+    @BeforeAll
+    public static void setup() {
+        baseURI = HOST;
+        port = PORT;
     }
 }
