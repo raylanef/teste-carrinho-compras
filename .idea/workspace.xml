@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01e87d28-69f6-41e4-bb6d-9597d636d482" name="Changes" comment="" />
+    <list default="true" id="01e87d28-69f6-41e4-bb6d-9597d636d482" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/geofusion/cart/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/geofusion/cart/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/geofusion/cart/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/geofusion/cart/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/geofusion/cart/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/geofusion/cart/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/geofusion/cart/controllers/ShoppingCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/geofusion/cart/controllers/ShoppingCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/geofusion/cart/controllers/ShoppingCartFactoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/geofusion/cart/controllers/ShoppingCartFactoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/geofusion/cart/services/ShoppingCartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/geofusion/cart/services/ShoppingCartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cart-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/Teste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/Teste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/controllers/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/controllers/exception/ExceptionHandlerDefault.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/controllers/exception/ExceptionHandlerDefault.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/controllers/exception/ExceptionResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/controllers/exception/ExceptionResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/controllers/exception/NotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/controllers/exception/NotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/services/ShoppingCartFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/geofusion/cart/services/ShoppingCartFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +35,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -28,6 +54,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2IEHio5wywFyisozxXHd0tH4oRj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,25 +63,47 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/raylane/Downloads/teste-carrinho-compras/src/main/java/br/com/geofusion/cart/controllers&quot;
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/raylane/Downloads/teste-carrinho-compras/src/test/java/br/com/geofusion/cart&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/br/com/geofusion/cart" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/java/br/com/geofusion/cart/controllers" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.geofusion.cart.services" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="br.com.geofusion.cart.controllers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.geofusion.cart" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.br.com.geofusion.cart.Cart">
-    <configuration name="br.com.geofusion.cart.Cart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Cart">
+    <configuration name="Cart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.geofusion.cart.Cart" />
       <module name="cart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.geofusion.cart.controllers.*" />
+          <option name="PATTERN" value="br.com.geofusion.cart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,37 +111,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.com.geofusion.cart.Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.geofusion.cart.Teste" />
+    <configuration name="ShoppingCartServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.geofusion.cart.controllers.*" />
+          <option name="PATTERN" value="br.com.geofusion.cart.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="br.com.geofusion.cart.services" />
+      <option name="MAIN_CLASS_NAME" value="br.com.geofusion.cart.services.ShoppingCartServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.com.geofusion.cart.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.geofusion.cart.main" />
+    <configuration name="ShoppingCartServiceTest.addAndGetItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.geofusion.cart.controllers.*" />
+          <option name="PATTERN" value="br.com.geofusion.cart.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="br.com.geofusion.cart.services" />
+      <option name="MAIN_CLASS_NAME" value="br.com.geofusion.cart.services.ShoppingCartServiceTest" />
+      <option name="METHOD_NAME" value="addAndGetItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartServiceTest.addItemInvalidCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.geofusion.cart.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.geofusion.cart.services" />
+      <option name="MAIN_CLASS_NAME" value="br.com.geofusion.cart.services.ShoppingCartServiceTest" />
+      <option name="METHOD_NAME" value="addItemInvalidCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartServiceTest.getItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.geofusion.cart.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.geofusion.cart.services" />
+      <option name="MAIN_CLASS_NAME" value="br.com.geofusion.cart.services.ShoppingCartServiceTest" />
+      <option name="METHOD_NAME" value="getItems" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.br.com.geofusion.cart.Cart" />
-        <item itemvalue="Application.br.com.geofusion.cart.Teste" />
-        <item itemvalue="Application.br.com.geofusion.cart.main" />
+        <item itemvalue="Application.Cart" />
+        <item itemvalue="JUnit.ShoppingCartServiceTest" />
+        <item itemvalue="JUnit.ShoppingCartServiceTest.addAndGetItem" />
+        <item itemvalue="JUnit.ShoppingCartServiceTest.getItems" />
+        <item itemvalue="JUnit.ShoppingCartServiceTest.addItemInvalidCart" />
       </list>
     </recent_temporary>
   </component>
@@ -106,5 +194,16 @@
       <updated>1669739952032</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -28,7 +28,7 @@ public class ShoppingCartFactoryController {
 
     @PatchMapping("/invalidate/{clientId}")
     public ResponseEntity<Boolean> invalidateCart(@PathVariable String clientId){
-        return ResponseEntity.status(200).body( cartFactory.invalidate(clientId));
+        return ResponseEntity.status(200).body(cartFactory.invalidate(clientId));
     }
 
 }

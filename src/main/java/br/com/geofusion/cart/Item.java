@@ -5,6 +5,7 @@ import lombok.ToString;
 
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
+import java.util.Objects;
 
 /**
  * Classe que representa um item no carrinho de compras.
@@ -26,6 +27,7 @@ public class Item {
         this.quantity = quantity;
     }
 
+
     /**
      * Retorna o valor total do item.
      *
@@ -39,5 +41,22 @@ public class Item {
          this.quantity += quantity;
     }
 
+    public void updateUnitPrice(BigDecimal unitPrice){
+        this.unitPrice = new BigDecimal(String.valueOf(unitPrice));
+    }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Item item = (Item) o;
+        return quantity == item.quantity && Objects.equals(product, item.product) && Objects.equals(unitPrice, item.unitPrice);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(product, unitPrice, quantity);
+    }
 }
 

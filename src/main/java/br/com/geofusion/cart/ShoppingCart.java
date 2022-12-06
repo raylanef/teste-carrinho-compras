@@ -2,6 +2,7 @@ package br.com.geofusion.cart;
 
 
 
+import br.com.geofusion.cart.controllers.exception.NotFoundException;
 import lombok.Getter;
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -105,5 +106,15 @@ public class ShoppingCart {
 
     public void isActive(boolean active) {
         this.active = active;
+    }
+
+    public void updatePriceItem(Long codeProduct,BigDecimal unitPrice) {
+        for (Item item: items) {
+            if(item.getProduct().getCode().equals(codeProduct)){
+                item.updateUnitPrice(unitPrice);
+                return;
+            }
+        }
+        throw new NotFoundException("item not found");
     }
 }

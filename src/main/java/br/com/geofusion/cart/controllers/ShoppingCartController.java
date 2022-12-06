@@ -17,17 +17,10 @@ public class ShoppingCartController {
     @Autowired
     ShoppingCartService service;
 
-    @PutMapping("/{clientId}")
+    @PostMapping("/{clientId}")
     public ResponseEntity<?> addItemInCart(@PathVariable String clientId, @RequestBody @Valid Item item){
         service.addItem(clientId, item);
-        return ResponseEntity.status(200).build();
-    }
-
-
-    @DeleteMapping("/client/{clientId}/product/{codeProduct}")
-    public ResponseEntity<?> deleteItem(@PathVariable Long codeProduct, @PathVariable String clientId){
-        service.removeItem(clientId, codeProduct);
-        return ResponseEntity.status(200).build();
+        return ResponseEntity.status(201).build();
     }
 
     @GetMapping("/amount/{clientId}")
@@ -40,7 +33,20 @@ public class ShoppingCartController {
         return ResponseEntity.status(200).body(service.getItems(clientId));
     }
 
+    @GetMapping("/client/{clientId}/product/{codeProduct}")
+    public ResponseEntity<Item> getItem(@PathVariable Long codeProduct, @PathVariable String clientId){
+        return ResponseEntity.status(200).body(service.getItem(clientId, codeProduct));
+    }
 
+    @DeleteMapping("/client/{clientId}/product/{codeProduct}")
+    public ResponseEntity<?> deleteItem(@PathVariable Long codeProduct, @PathVariable String clientId){
+        service.removeItem(clientId, codeProduct);
+        return ResponseEntity.status(200).build();
+    }
 
-
+    @PutMapping("/client/{clientId}")
+    public ResponseEntity<?> updateItem( @PathVariable String clientId, @RequestBody Item item){
+        service.updatePriceItem(clientId, item);
+        return ResponseEntity.status(200).build();
+    }
 }

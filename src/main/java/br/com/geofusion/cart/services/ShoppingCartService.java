@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 public class ShoppingCartService {
@@ -25,10 +26,27 @@ public class ShoppingCartService {
         cart.addItem(item.getProduct(), item.getUnitPrice(),item.getQuantity());
     }
 
+    public void updatePriceItem(String clientId, Item item ){
+        Long codeProduct = item.getProduct().getCode();
+        BigDecimal unitPrice = item.getUnitPrice();
+        ShoppingCart cart = cartExists(carts, clientId);
+        cart.updatePriceItem(codeProduct,unitPrice);
+    }
+
     public void removeItem(String clientId, Long codeProduct){
         ShoppingCart cart = cartExists(carts, clientId);
         Product product = new Product(codeProduct);
         cart.removeItem(product);
+    }
+
+    public Item getItem(String clientId, Long codeProduct){
+        ShoppingCart cart = cartExists(carts, clientId);
+        Product product = new Product(codeProduct);
+        Optional<Item> item = cart.getItems().stream().filter(p -> p.getProduct().getCode().equals(codeProduct))
+                .findAny();
+
+        if (!item.isPresent()) throw new NotFoundException("item not found");
+        return item.get();
     }
 
     public BigDecimal amount(String clientId){
