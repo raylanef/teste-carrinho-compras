@@ -7,6 +7,4 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.Optional;
 
 public interface ItemRepository extends JpaRepository<Item, Long> {
-    //@Query("from Item i where i.product.code= ?1 and i.cart")
-    //Optional<Item> findByCodeProduct(Long code);
 }

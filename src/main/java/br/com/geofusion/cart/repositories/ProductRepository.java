@@ -5,7 +5,4 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 public interface ProductRepository extends JpaRepository<Product,Long> {
-
-    //@Query("update Product set :fields where id=:id")
-    //void update(String fields, Long id);
 }
