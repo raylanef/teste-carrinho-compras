@@ -2,6 +2,9 @@
  Case para avaliação Dev JR.
 
  O projeto conta com a branch principal (master) que contém resolução em memória, como também a branch (com-banco) que possui banco de dados relacional H2.
+ 
+## Decisões
+ Parte do que foi pedido, sobre atualização de preços e manipulação de items não ficou totalmente claro para mim. Então decidi adicionar  um identificador([que é passadao como path parameter](https://github.com/raylanef/teste-carrinho-compras/blob/master/src/main/java/br/com/geofusion/cart/controllers/ShoppingCartController.java#L20)) para cada carrinho, que é o ID do cliente, e o items só podem ser adicionados se existir um carrinho para tal cliente.
 
 
 ## Requisitos
