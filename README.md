@@ -1,21 +1,31 @@
-## Atenção
-Nesta prova será necessário implementar os métodos das classes conforme descrições dos Javadocs correspondentes.
+## GEOFUSION CART 
+ Case para avaliação Dev JR.
 
-Deverá ter interfaces REST para as seguintes funcionalidades:
+ O projeto conta com a branch principal (master) que contém resolução em memória, como também a branch (com-banco) que possui banco de dados relacional H2.
 
-    * Cadastro de produtos.
-    * Alteração de preços.
-    * Criação de carrinhos.
 
-## Regras:
+## Requisitos
+* Java 11
+* Maven 3.8+
+  
 
-* Você poderá criar novos atributos, classes, métodos e reorganizar os pacotes.
-* É proibido mudar a assinatura dos métodos e construtores já existentes, exceto o construtor da classe ShoppingCart.
-* Você tem liberdade de adicionar frameworks e bibliotecas.
-* Não será necessário implementar nenhum tipo de interface gráfica.
-* A prova deve ser resolvida utilizando obrigatoriamente Java (Versão 8 ou superior).
-* É opcional o uso de bancos de dados e ferramentas de persistência. 
-(Caso opte por utilizar, deverá encaminhar no readme as instruções de inicialização do projeto).
-* É opcional a implementação de cobertura de testes.
-* Sua prova precisa compilar via Maven, impreterivelmente.
-* A entrega do teste deverá ser por meio de um repositório público ou anexada ao email.
+## Executar:
+
+Execução projeto:
+
+Primeiramente, build o projeto com  o seguinte comando:
+
+``` 
+mvn clean package
+```
+
+Então, execute:
+
+``` 
+java -jar target/cart-1.0-SNAPSHOT.jar
+```
+
+Para executar apenas os testes, utilize o seguinte comando:
+```
+mvn test
+```
