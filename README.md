@@ -1,4 +1,4 @@
-## GEOFUSION CART 
+## GEOFUSION SHOPPING CART 
  Case para avaliação Dev JR.
 
  O projeto conta com a branch principal (master) que contém resolução em memória, como também a branch (com-banco) que possui banco de dados relacional H2.
