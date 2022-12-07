@@ -11,7 +11,13 @@
 
 ## Executar:
 
-Execução projeto:
+Para executar apenas os testes, utilize o seguinte comando:
+```
+mvn test
+```
+
+
+Execução do projeto:
 
 Primeiramente, build o projeto com  o seguinte comando:
 
@@ -25,7 +31,7 @@ Então, execute:
 java -jar target/cart-1.0-SNAPSHOT.jar
 ```
 
-Para executar apenas os testes, utilize o seguinte comando:
-```
-mvn test
-```
+A aplicação estará disponível em : http://localhost:8080/
+
+E a documentação da API, disponível em : http://localhost:8080/swagger-ui/index.html#/
+
